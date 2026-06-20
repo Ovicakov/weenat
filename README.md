@@ -34,6 +34,15 @@ import { useEvents } from '@/_lib/useEvents'
 
 instead of `../../../_lib/useEvents`. Easier to read, and immune to refactoring moves.
 
+### CI/CD
+
+A GitHub Actions pipeline runs on every push to `main`:
+
+1. **CI** — lint, typecheck, and tests with 100% coverage check
+2. **Deploy** — deploys to Vercel production, only if CI passes
+
+The live app is available at the URL provided by Vercel after the first successful deployment.
+
 ### File organisation
 
 Each component, hook, or utility lives in its own folder and splits its concerns across three files:
