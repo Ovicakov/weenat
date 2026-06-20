@@ -2,6 +2,8 @@
 
 A monthly calendar app built as a technical exercise. Navigate months and years, create events by clicking a day, and delete them.
 
+**Live:** https://weenat-fi2myk8cv-ovic.vercel.app
+
 ## Tech choices
 
 ### React, TypeScript, Next.js
